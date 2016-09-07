@@ -1,0 +1,18 @@
+---
+layout: default
+---
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  {% for post in site.posts %}
+  <div class="post-content" itemprop="articleBody">
+
+    <header class="post-header">
+      <h3>{{post.title}}</h3>
+      <p>{{post.date}}</p>
+    </header>
+
+    <p>{{post.content}}</p>
+  </div>
+  {% endfor %}
+
+</article>
