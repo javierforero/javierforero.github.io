@@ -12,9 +12,11 @@ permalink: /projects.html
   <div class="post-content">
     {% for project in site.projects %}
       <li>
-        <img src="{{ project.thumbnail-path }}" alt="{{ project.title }}"/>
-        <a href="{{ project.url }}">{{ project.title }}</a>
-        <p>{{ project.short-description }}</p>
+        <img src="{{ project.thumbnail-path }}" alt="{{ project.title }}"/><br>
+        <p>
+          <a href="{{ project.url }}">{{ project.title }}</a><br>
+          {{ project.short-description }}
+        </p>
       </li>
     {% endfor %}
   </div>
