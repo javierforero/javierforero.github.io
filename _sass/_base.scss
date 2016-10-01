@@ -91,8 +91,13 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 
-a {
+a, a:visited {
   text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: #2ACDC1;
 }
 
 /**
@@ -171,6 +176,16 @@ pre {
         display: table;
         clear: both;
     }
+}
+
+.clear-fix::before,
+.clear-fix::after {
+    content: " ";
+    display: table;
+}
+
+.clear-fix::after {
+    clear: both;
 }
 
 

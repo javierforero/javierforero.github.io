@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Blocmetrics
-thumbnail-path: "/images/analytics.png"
 short-description: Blocmetrics is an analytics site that allows you to track events on your web apps.
 ---
 

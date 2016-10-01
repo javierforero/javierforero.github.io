@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Blocitoff
-thumbnail-path: "/images/list.png"
 short-description: Blocitoff is a self destructive to-do list that will keep you productive.
 ---
 **Summary**

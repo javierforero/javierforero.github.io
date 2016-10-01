@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Blocjams
-thumbnail-path: "/images/radio.png"
 short-description: "Blocjams is an online music streaming service that offers free music streaming."
 ---
 **Summary**
