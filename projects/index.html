@@ -10,12 +10,13 @@ permalink: /projects.html
   </header>
   <ul class="post-ul clear-fix">
   {% for project in site.projects %}
-  <li class="post-content post-container column fourth">
-
-        <h2><a href="{{ project.url }}">{{ project.title }}</a></h2>
+    <a href="{{ project.url }}" class="post-content post-container column">
+      <li id="post-{{forloop.index}}">
+        <h2>{{ project.title }}</h2>
         <br>
         <p>{{ project.short-description }}</p>
-  </li>
+      </li>
+    </a>
   {% endfor %}
  </ul>
 </article>
