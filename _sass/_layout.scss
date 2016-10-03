@@ -348,3 +348,30 @@ ul.post-ul a:hover {
 .column.fourth { width: 25%;}
 .column.flow-opposite { float: right;}
 }
+
+// responsive media queires
+
+@media only screen and (max-width: 998px) {
+  a#post-3 {
+    clear: left;
+  }
+
+  a#post-2 {
+    margin-right: 0;
+  }
+
+  ul.post-ul {
+    width: 458px;
+    margin: 0 auto;
+  }
+
+  .post-container {
+    margin-right: 4.2%;
+    margin-bottom: -10px;
+  }
+
+  a#post-3, a#post-4 {
+    margin-bottom: 20px;
+  }
+
+}
