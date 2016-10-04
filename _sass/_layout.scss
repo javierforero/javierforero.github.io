@@ -335,8 +335,6 @@ ul.post-ul a:hover {
   background-color: #2ACDC1;
 }
 
-// columns
-@media (min-width: 640px){
 .column {
     float: left;
 }
@@ -347,13 +345,12 @@ ul.post-ul a:hover {
 .column.third { width: 33.3%;}
 .column.fourth { width: 25%;}
 .column.flow-opposite { float: right;}
-}
 
 // responsive media queires
 
 @media only screen and (max-width: 998px) {
   a#post-3 {
-    clear: left;
+    // clear: left;
   }
 
   a#post-2 {
@@ -373,5 +370,33 @@ ul.post-ul a:hover {
   a#post-3, a#post-4 {
     margin-bottom: 20px;
   }
+
+}
+
+@media only screen and (max-width: 671px) {
+
+  a.site-title {
+    width: 380px;
+  }
+
+  nav.site-nav {
+    font-size: .9rem;
+  }
+
+}
+
+@media only screen and (max-width: 640px) {
+
+  .post-container {
+    position: relative;
+    margin-right: 0;
+    margin-bottom: 0;
+    clear: both;
+  }
+
+  ul.post-ul {
+    width: 219px;
+  }
+
 
 }
