@@ -25,7 +25,7 @@
   color: #828282;
 }
 .intro a:hover {
-  color: #2acdc1;
+  color: #2D46B9;
   -webkit-transition: color .3s ease-out;
   -moz-transition: color .3s ease-out;
   -o-transition: color .3s ease-out;
@@ -75,7 +75,7 @@
     }
 
     .page-link:hover {
-       color: #2acdc1;
+       color: #2D46B9;
        -webkit-transition: color .3s ease-out;
        -moz-transition: color .3s ease-out;
        -o-transition: color .3s ease-out;
@@ -84,7 +84,7 @@
     }
 
     .current {
-      color: #2acdc1;
+      color: #2D46B9;
     }
 
     @include media-query($on-palm) {
@@ -332,7 +332,7 @@ ul.post-ul a:last-child {
 
 ul.post-ul a:hover {
   color: white;
-  background-color: #2ACDC1;
+  background-color: #2D46B9;
 }
 
 .column {
