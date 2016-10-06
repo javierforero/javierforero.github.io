@@ -1,14 +1,14 @@
 ---
 layout: default
 ---
-<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+<article class="post blog" itemscope itemtype="http://schema.org/BlogPosting">
 
   {% for post in site.posts %}
   <div class="post-content" itemprop="articleBody">
 
     <header class="post-header">
       <h3>{{post.title}}</h3>
-      <p>{{post.date | date: '%B %d, %Y'}}</p>
+      <h4 class="date">{{post.date | date: '%B %d, %Y'}}</h4>
     </header>
 
     <p>{{post.content}}</p>

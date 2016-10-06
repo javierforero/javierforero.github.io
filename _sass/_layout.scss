@@ -335,6 +335,20 @@ ul.post-ul a:hover {
   background-color: #2D46B9;
 }
 
+article.blog p, article.projects p  {
+  font-family: 'Libre Baskerville', serif;
+  letter-spacing: .5px;
+  line-height: 33px;
+}
+
+h4.date {
+  font-size: 15px;
+}
+
+article.blog, article.projects {
+  width: 610px;
+}
+
 .column {
     float: left;
 }
