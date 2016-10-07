@@ -93,9 +93,13 @@ h1, h2, h3, h4, h5, h6 {
 
 a, a:visited {
   text-decoration: none;
-  color: white;
+  color: #2D46B9;
 }
 
+ a.column {
+  text-decoration: none;
+  color: white;
+}
 a:hover {
   color: #2D46B9;
 }

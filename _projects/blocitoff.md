@@ -1,6 +1,7 @@
 ---
 layout: projects
 title: Blocitoff
+src-code: https://github.com/javierforero/Blocitoff
 short-description: Blocitoff is a self destructive to-do list that will keep you productive.
 ---
 
@@ -8,6 +9,7 @@ Summary
 =======
 
 Blocitoff is a web app that let’s you create a to-do list that keeps you productive by automatically deleting the tasks not marked as completed within 7 days.  
+This app was built using Ruby on Rails.
 
 
 Explanation

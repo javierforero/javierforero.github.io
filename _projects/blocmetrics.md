@@ -1,6 +1,7 @@
 ---
 layout: projects
 title: Blocmetrics
+src-code: https://github.com/javierforero/Blocmetrics
 short-description: Blocmetrics is an analytics site that allows you to track events on your web apps.
 ---
 
@@ -8,7 +9,7 @@ short-description: Blocmetrics is an analytics site that allows you to track eve
 Summary
 ============
 
-Blocmetrics is a web app that allows you to track events from other sites via an API and displays them in a graphic form.  
+Blocmetrics is a web app that allows you to track events from other sites via an API and displays them in a graphic form.   This was built using Ruby on Rails.
 
 Explanation
 ===============
