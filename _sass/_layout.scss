@@ -379,9 +379,6 @@ div.post-content a.button-src {
 // responsive media queires
 
 @media only screen and (max-width: 998px) {
-  a#post-3 {
-    // clear: left;
-  }
 
   a#post-2 {
     margin-right: 0;
@@ -401,6 +398,11 @@ div.post-content a.button-src {
     margin-bottom: 20px;
   }
 
+  div.intro {
+    margin: 0 auto;
+    width: 80%;
+  }
+
 }
 
 @media only screen and (max-width: 671px) {
@@ -411,6 +413,15 @@ div.post-content a.button-src {
 
   nav.site-nav {
     font-size: .9rem;
+  }
+
+}
+
+@media only screen and (max-width: 653px) {
+
+  article.blog, article.projects {
+    margin: 0 auto;
+    width: 500px;
   }
 
 }
@@ -427,6 +438,28 @@ div.post-content a.button-src {
   ul.post-ul {
     width: 219px;
   }
+}
 
+@media only screen and (max-width: 530px) {
+
+  article.blog, article.projects {
+
+    width: 400px;
+  }
+
+  div.intro {
+    width: 300px;
+    font-size: 20px;
+  }
+
+}
+
+@media only screen and (max-width: 435px) {
+
+  article.blog, article.projects {
+
+    width: 85%;
+    min-width: 240px;
+  }
 
 }
