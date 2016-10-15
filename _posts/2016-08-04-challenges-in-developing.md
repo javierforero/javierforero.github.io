@@ -16,4 +16,5 @@ And if you do have a working Spotify account, Alexa will hook you up with The Be
 
 My first idea for a skill was simple. I wanted to build a slang dictionary where the user would ask Alexa for the slang definition of a word and Alexa would get the Urban Dictionary definition and read it to the user.
 
-I liked the idea of this skill because to me it was funny, and it required me to work with UrbanDictionary's APIs and use asynchronous programming in order to make it work. The most challenging thing about this project was finding documentation and understanding asynchronous programming. In the end, my skill was not published because of its indecent nature, but it was a great experience over all.
+I liked the idea of this skill because to me it was funny, and it required me to work with UrbanDictionary's APIs and use asynchronous programming in order to make it work. The most challenging thing about this project was finding documentation and understanding asynchronous programming.
+In the end, this skill was not published because of its nature, but I was able to publish other skills such as platypus fact, Prince trivia game, and a reverse word.
