@@ -251,8 +251,6 @@
     font-size: 24px;
 }
 
-
-
 /**
  * Posts
  */
@@ -403,6 +401,42 @@ div.post-content a.button-src {
     width: 80%;
   }
 
+}
+
+div.form-container {
+
+  text-align: center;
+
+  form input, textarea {
+    border: 1px solid #dfe0e6;
+    border-radius: 2px;
+    padding: 6px 10px;
+    height: 35px;
+    width: 400px;
+    -webkit-border-radius: 2px;
+    margin-bottom: 20px;
+    font-size: 13px;
+    letter-spacing: .6px;
+   }
+
+   textarea {
+     height: 200px;
+   }
+
+   form input[type="submit"] {
+     background-color: #2D46B9;
+     color: white;
+     border: none;
+     width: 422px;
+     height: 50px;
+     padding: 7px;
+     &:focus {
+       outline: none;
+     }
+     &:hover {
+       background-color: #445cc8;
+     }
+   }
 }
 
 @media only screen and (max-width: 671px) {
