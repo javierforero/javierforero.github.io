@@ -4,7 +4,7 @@ title: Blocitoff
 src-code: https://github.com/javierforero/Blocitoff
 image-url: /images/blocitoff.png
 heroku-url: https://blocitoff-javi.herokuapp.com/
-short-description: Blocitoff is a self destructive to-do list that will keep you productive.
+short-description: "A self destructive to-do list that will keep you productive"
 ---
 
 Snapshot

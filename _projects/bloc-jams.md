@@ -4,7 +4,7 @@ title: BlocJams
 src-code: https://github.com/javierforero/bloc-jams-angular
 image-url: /images/blocjams.png
 heroku-url: https://blocjams-javi.herokuapp.com/
-short-description: "Blocjams is a music streaming service."
+short-description: "A music streaming service"
 ---
 
 Snapshot

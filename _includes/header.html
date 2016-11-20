@@ -3,7 +3,6 @@
   <div class="wrapper">
 
     <a class="site-title" href="{{ site.baseurl }}/">
-      <!-- <i class="fa fa-home" aria-hidden="true"></i> -->
       <img src="/images/pineapple.png">
     </a>
 
@@ -17,11 +16,9 @@
       </a>
 
       <div class="trigger">
-        {% for my_page in site.pages %}
-          {% if my_page.title %}
-          <a class="page-link {% if page.permalink == my_page.permalink %}current{% endif %}" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
-          {% endif %}
-        {% endfor %}
+          <a class="page-link {% if page.permalink == '/projects.html' %}current{% endif %}" href="/projects.html">PROJECTS</a>
+          <a class="page-link {% if page.permalink == '/blog.html' %}current{% endif %}" href="/blog.html">BLOG</a>
+          <a class="page-link {% if page.permalink == '/contact.html' %}current{% endif %}" href="/contact.html">CONTACT</a>
       </div>
     </nav>
 

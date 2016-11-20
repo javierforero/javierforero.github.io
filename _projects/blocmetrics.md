@@ -4,7 +4,7 @@ title: Blocmetrics
 src-code: https://github.com/javierforero/Blocmetrics
 image-url: /images/blocmetrics.png
 heroku-url: https://blocmetrics-javi.herokuapp.com/
-short-description: Blocmetrics is an analytics site that allows you to track events on your web apps.
+short-description: An analytics site that allows you to track events on your web apps
 ---
 
 

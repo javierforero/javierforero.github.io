@@ -4,7 +4,7 @@ title: BlocChat
 src-code: https://github.com/javierforero/bloc-chat
 image-url: /images/blocchat.png
 heroku-url: https://blocchat-javi.herokuapp.com/
-short-description: "Blocchat is chatroom web app that uses AngularJS and firebase."
+short-description: "A chatroom web app that uses AngularJS and firebase."
 ---
 
 Snapshot
