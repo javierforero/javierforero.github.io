@@ -23,3 +23,6 @@ collections:
 
 # Build settings
 markdown: kramdown
+
+#Scripts
+google_analytics: "UA-87739652-1"
