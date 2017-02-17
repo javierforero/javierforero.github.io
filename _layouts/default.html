@@ -4,16 +4,11 @@
   {% include head.html %}
 
   <body>
-
-    {% include header.html %}
-
-    <div class="page-content">
-      <div class="wrapper">
+    <div class="page-content clearfix homepage-overflow">
+      {% include header.html %}
         {{ content }}
-        {% include social.html %}
-      </div>
     </div>
-    
+
  </body>
 
 </html>

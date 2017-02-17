@@ -19,6 +19,11 @@
           <a class="page-link {% if page.permalink == '/projects.html' %}current{% endif %}" href="/projects.html">PROJECTS</a>
           <a class="page-link {% if page.permalink == '/blog.html' %}current{% endif %}" href="/blog.html">BLOG</a>
           <a class="page-link {% if page.permalink == '/contact.html' %}current{% endif %}" href="/contact.html">CONTACT</a>
+          <a>
+            {% if site.github_username %}
+              {% include icon-github.html username=site.github_username %}
+            {% endif %}
+          </a>
       </div>
     </nav>
 
