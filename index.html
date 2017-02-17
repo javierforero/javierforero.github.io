@@ -2,6 +2,21 @@
 layout: default
 ---
   <section class="intro-image">
+    <canvas></canvas>
+    <script type="x-shader/x-vertex" id="wrapVertexShader">
+      attribute vec3 color;
+      varying vec3 vColor;
+    	void main() {
+    		vColor = color;
+        gl_Position = projectionMatrix * modelViewMatrix * vec4(position,1.0);
+      }
+    </script>
+    <script type="x-shader/x-fragment" id="wrapFragmentShader">
+      varying vec3 vColor;
+      void main(){
+        gl_FragColor = vec4(vColor ,1.0);
+      }
+    </script>
   </section>
   <section class="intro">
       <h2>Hi there! I'm Javier</h2><br>
