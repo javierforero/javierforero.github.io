@@ -2,14 +2,15 @@ var ww = window.innerWidth * .50,
     wh = window.innerHeight;
 
 var renderer = new THREE.WebGLRenderer({
-  canvas: document.querySelector("canvas")
+  canvas: document.querySelector("canvas"),
+  antialias: true
 });
-renderer.setClearColor(0x000000);
+renderer.setClearColor('rgb(248,149,147)');
 renderer.setSize(ww, wh);
 
 var scene = new THREE.Scene();
 
-var camera = new THREE.PerspectiveCamera(50, ww / wh, 1, 5000);
+var camera = new THREE.PerspectiveCamera(50, ww / wh, 1, 1000);
 camera.position.set(0, 0, 200);
 
 var controls = new THREE.OrbitControls(camera);
@@ -28,7 +29,7 @@ var colors = new Float32Array(sphere.attributes.position.array.length);
 for(var i=0;i<sphere.attributes.position.array.length;i+=3){
 
   var perlin = Math.abs(noise.simplex3(sphere.attributes.position.array[i]*0.01, sphere.attributes.position.array[i+1]*0.01, sphere.attributes.position.array[i+2]*0.01));
-  var color = new THREE.Vector3(perlin, 0.5, 0.5);
+  var color = new THREE.Vector3(perlin, 0.7, 0.8);
   color.toArray(colors, i);
 }
 
