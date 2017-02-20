@@ -31,23 +31,25 @@ html, body {
     font-size: 15px;
     letter-spacing: 2px;
     // Positioning context for the mobile navigation icon
-    position: relative;
+    position: absolute;
+    width: 100%;
+    background-color: white;
 }
 
 div.homepage-overflow {
-  overflow-y: hidden;
+  // overflow-y: hidden;
 }
 
 section.intro-image {
   width: 50%;
-  height: 100%;
+  // height: 100%;
   float: left;
   background-color: black;
 }
 
 section.intro {
   width: 50%;
-  height: 100%;
+  // height: 100%;
   float: right;
   text-align: center;
   font-size: 22px;
@@ -552,6 +554,20 @@ div.form-container {
        background-color: #445cc8;
      }
    }
+}
+
+@media only screen and (max-width: 750px) {
+
+  // section.intro {
+  //   position: absolute;
+  //   width: 100%;
+  //   float: none;
+  // }
+  //
+  // section.intro-image {
+  //   width: 100%;
+  //
+  // }
 }
 
 @media only screen and (max-width: 671px) {

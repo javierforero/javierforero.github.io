@@ -40,11 +40,17 @@ var mesh = new THREE.Mesh(sphere, material);
 scene.add(mesh);
 
 window.addEventListener("resize", function() {
-  ww = window.innerWidth * .50;
-  wh = window.innerHeight;
-  camera.aspect = ww / wh;
-  camera.updateProjectionMatrix();
-  renderer.setSize(ww, wh);
+
+  if (window.innerWidth <= 752) {
+    ww = window.innerWidth;
+  } else {
+    ww = window.innerWidth * .50;
+  }
+
+    wh = window.innerHeight;
+    camera.aspect = ww / wh;
+    camera.updateProjectionMatrix();
+    renderer.setSize(ww, wh);
 });
 
 function render(a) {
