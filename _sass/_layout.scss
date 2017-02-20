@@ -36,20 +36,24 @@ html, body {
     background-color: white;
 }
 
-div.homepage-overflow {
-  // overflow-y: hidden;
+div.home-page {
+  height: 100%;
 }
 
 section.intro-image {
   width: 50%;
-  // height: 100%;
+  height: 100%;
   float: left;
   background-color: black;
 }
 
+div#intro-image-text {
+  margin-top: 70px;
+}
+
 section.intro {
   width: 50%;
-  // height: 100%;
+  height: 100%;
   float: right;
   text-align: center;
   font-size: 22px;
