@@ -1,8 +1,8 @@
-var ww = window.innerWidth * .50,
-    wh = window.innerHeight;
+var ww = document.getElementById('canvas-section').clientWidth,
+    wh = document.getElementById('canvas-section').clientHeight;
 
 var renderer = new THREE.WebGLRenderer({
-  canvas: document.querySelector("canvas"),
+  canvas: document.getElementById('canvas'),
   antialias: true
 });
 renderer.setClearColor('rgb(248,149,147)');
@@ -12,8 +12,6 @@ var scene = new THREE.Scene();
 
 var camera = new THREE.PerspectiveCamera(50, ww / wh, 1, 1000);
 camera.position.set(0, 0, 200);
-
-var controls = new THREE.OrbitControls(camera);
 
 var sphere = new THREE.SphereBufferGeometry(50,50,50);
 var spherePositions = sphere.attributes.position.array.slice(0);
@@ -44,10 +42,10 @@ window.addEventListener("resize", function() {
   if (window.innerWidth <= 752) {
     ww = window.innerWidth;
   } else {
-    ww = window.innerWidth * .50;
+    ww = document.getElementById('canvas-section').clientWidth;
   }
 
-    wh = window.innerHeight;
+    wh = document.getElementById('canvas-section').clientHeight;
     camera.aspect = ww / wh;
     camera.updateProjectionMatrix();
     renderer.setSize(ww, wh);

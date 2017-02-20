@@ -44,11 +44,15 @@ section.intro-image {
   width: 50%;
   height: 100%;
   float: left;
-  background-color: black;
+  min-height: 655px;
 }
 
 div#intro-image-text {
   margin-top: 70px;
+}
+
+canvas#canvas {
+  float: left;
 }
 
 section.intro {
@@ -497,6 +501,23 @@ div.dumbo-cover {
 }
 
 @media only screen and (max-width: 998px) {
+
+  div#intro-image-text {
+
+    font-size: 1.1rem;
+
+    img {
+      width: 40%;
+      height: auto;
+    }
+
+    p {
+      font-size: .9rem;
+      line-height: 2.3rem;
+      padding: 10px 10px;
+    }
+
+  }
 
   a#post-2 {
     margin-right: 0;
