@@ -233,7 +233,17 @@ section.intro {
     margin-left: -$spacing-unit / 2;
     @extend %clearfix;
 }
+.wrapper-other {
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 30px;
+  padding-left: 30px;
+  max-width: calc(950px - (30px));
+}
 
+article.wrapper-other, article.post.projects.wrapper-other {
+  margin-top: 100px;
+}
 .footer-col {
     float: left;
     margin-bottom: $spacing-unit / 2;
@@ -683,10 +693,9 @@ div.form-container {
 
 @media only screen and (max-width: 335px) {
 
-  section.intro div#intro-image-text p {
-      width: 280px;
-      font-size: .8rem;
-      line-height: 22px;
-
-  }
+ section.intro div#intro-image-text p {
+     width: 280px;
+     font-size: .8rem;
+     line-height: 22px;
+ }
 }
