@@ -49,6 +49,9 @@ section.intro-image {
 
 div#intro-image-text {
   margin-top: 70px;
+  h2 {
+    margin-top: 15px;
+  }
 }
 
 canvas#canvas {
@@ -439,9 +442,11 @@ div.dumbo-cover {
 .column.flow-opposite { float: right;}
 
 .intro img {
-  width: 12rem;
+  width: 30%;
+  height: auto;
   display: block;
   margin: 0 auto;
+  min-width: 172px;
   &:hover {
    -webkit-animation: trip-balls 3s infinite;
    -moz-animation: trip-balls 3s infinite;
@@ -591,6 +596,7 @@ div.form-container {
   div#intro-image-text img {
     width: 30%;
   }
+
   div#intro-image-text p {
        margin: 0 auto;
        width: 500px;
@@ -603,7 +609,11 @@ div.form-container {
     width: 100%;
     top: 0;
     z-index: -1;
-    min-height: 300px;
+    min-height: 640px;
+    canvas {
+      float: none;
+      width: 100%;
+    }
   }
 
 }
@@ -641,11 +651,6 @@ div.form-container {
 
 @media only screen and (max-width: 545px) {
 
-  div#intro-image-text p {
-    width: 300px;
-    padding: 0px;
-    text-align: center;
-  }
 
   article.blog, article.projects {
     width: 400px;
@@ -658,11 +663,30 @@ div.form-container {
 
 }
 
+@media only screen and (max-width: 533px) {
+
+    section.intro div#intro-image-text p {
+        width: 300px;
+    }
+}
+
 @media only screen and (max-width: 435px) {
 
   article.blog, article.projects {
 
     width: 85%;
     min-width: 240px;
+  }
+
+
+}
+
+@media only screen and (max-width: 335px) {
+
+  section.intro div#intro-image-text p {
+      width: 280px;
+      font-size: .8rem;
+      line-height: 22px;
+
   }
 }
