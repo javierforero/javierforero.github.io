@@ -583,16 +583,29 @@ div.form-container {
 
 @media only screen and (max-width: 750px) {
 
-  // section.intro {
-  //   position: absolute;
-  //   width: 100%;
-  //   float: none;
-  // }
-  //
-  // section.intro-image {
-  //   width: 100%;
-  //
-  // }
+  section.intro {
+    margin: 0 auto;
+    width: 100%;
+    float: none;
+
+  div#intro-image-text img {
+    width: 30%;
+  }
+  div#intro-image-text p {
+       margin: 0 auto;
+       width: 500px;
+       font-size: 1rem;
+    }
+  }
+
+  section.intro-image {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    z-index: -1;
+    min-height: 300px;
+  }
+
 }
 
 @media only screen and (max-width: 671px) {
@@ -626,10 +639,15 @@ div.form-container {
   }
 }
 
-@media only screen and (max-width: 530px) {
+@media only screen and (max-width: 545px) {
+
+  div#intro-image-text p {
+    width: 300px;
+    padding: 0px;
+    text-align: center;
+  }
 
   article.blog, article.projects {
-
     width: 400px;
   }
 
@@ -647,5 +665,4 @@ div.form-container {
     width: 85%;
     min-width: 240px;
   }
-
 }

@@ -39,16 +39,11 @@ scene.add(mesh);
 
 window.addEventListener("resize", function() {
 
-  if (window.innerWidth <= 752) {
-    ww = window.innerWidth;
-  } else {
-    ww = document.getElementById('canvas-section').clientWidth;
-  }
-
-    wh = document.getElementById('canvas-section').clientHeight;
-    camera.aspect = ww / wh;
-    camera.updateProjectionMatrix();
-    renderer.setSize(ww, wh);
+  ww = document.getElementById('canvas-section').clientWidth;
+  wh = document.getElementById('canvas-section').clientHeight;
+  camera.aspect = ww / wh;
+  camera.updateProjectionMatrix();
+  renderer.setSize(ww, wh);
 });
 
 function render(a) {
