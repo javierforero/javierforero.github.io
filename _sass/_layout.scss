@@ -651,7 +651,7 @@ div.form-container {
 @media only screen and (max-width: 653px) {
 
   article.blog, article.projects {
-    margin: 0 auto;
+    margin: 100 auto;
     width: 500px;
   }
 
@@ -700,6 +700,16 @@ div.form-container {
     min-width: 240px;
   }
 
+  section.intro div#intro-image-text {
+
+    img {
+      width: 40px;
+      height: auto;
+    }
+    p {
+      font-size: .85rem;
+    }
+  }
 
 }
 
@@ -707,7 +717,6 @@ div.form-container {
 
  section.intro div#intro-image-text p {
      width: 280px;
-     font-size: .8rem;
-     line-height: 22px;
+     line-height: 25px;
  }
 }
