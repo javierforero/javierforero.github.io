@@ -119,12 +119,9 @@ section.intro {
 
     .menu-icon {
         display: none;
+        position: relative;
+        z-index: 5
     }
-
-    #close-icon {
-      margin-top: 9px;
-    }
-
     .page-link {
         color: $text-color;
         line-height: $base-line-height;
@@ -147,7 +144,9 @@ section.intro {
     .current {
       color: #2D46B9;
     }
-
+    div#mobile-menu {
+      display: none;
+    }
     @include media-query($on-palm) {
         position: absolute;
         top: 9px;
@@ -216,8 +215,27 @@ section.intro {
   left: 0;
   right: 0;
   height: 100%;
-  z-index: 35px;
+  z-index: 3;
+  background-color: rgba(211,54,127,.97);
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
 }
+
+div#mobileWrapper {
+  position: relative;
+  width: 100%;
+  height: 101%;
+  padding: 100px 0 !important;
+  text-align: center;
+  nav#mobileNavigation {
+    div.mobile-nav {
+      font-size: 1.3rem;
+      padding: 20px 0;
+    }
+  }
+}
+
+
 
 /**
  * Site footer
@@ -630,7 +648,11 @@ div.form-container {
      }
    }
 }
-
+@media only screen and (max-width: 799px) {
+  ul.post-ul {
+    font-size: .8em;
+  }
+}
 @media only screen and (max-width: 750px) {
 
   section.intro {
@@ -661,6 +683,12 @@ div.form-container {
     }
   }
 
+}
+
+@media only screen and (max-width: 600px) {
+  div#site-menu {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 671px) {

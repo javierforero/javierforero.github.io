@@ -1,5 +1,4 @@
 <header class="site-header navbar">
-
   <div class="wrapper">
 
     <a class="site-title" href="{{ site.baseurl }}/">
@@ -20,7 +19,7 @@
       <a class="menu-icon" onclick="menuClose()" id="close-icon">
         <img src="/images/cross.png" />
       </a>
-      <div class="trigger" id="menu-trigger">
+      <div  id="site-menu">
           <a class="page-link {% if page.permalink == '/projects.html' %}current{% endif %}" href="/projects.html">PROJECTS</a>
           <a class="page-link {% if page.permalink == '/blog.html' %}current{% endif %}" href="/blog.html">BLOG</a>
           <a class="page-link {% if page.permalink == '/contact.html' %}current{% endif %}" href="/contact.html">CONTACT</a>
@@ -29,6 +28,28 @@
               {% include icon-github.html username=site.github_username %}
             {% endif %}
           </a>
+      </div>
+      <div id="mobile-menu">
+        <div id="mobileWrapper">
+          <nav id="mobileNavigation">
+            <div class="mobile-nav">
+              <a class="page-link {% if page.permalink == '/projects.html' %}current{% endif %}" href="/projects.html">PROJECTS</a>
+            </div>
+            <div class="mobile-nav">
+              <a class="page-link {% if page.permalink == '/blog.html' %}current{% endif %}" href="/blog.html">BLOG</a>
+            </div>
+           <div class="mobile-nav">
+            <a class="page-link {% if page.permalink == '/contact.html' %}current{% endif %}" href="/contact.html">CONTACT</a>
+           </div>
+           <div class="mobile-nav">
+             <a>
+               {% if site.github_username %}
+                 {% include icon-github.html username=site.github_username %}
+               {% endif %}
+             </a>
+           </div>
+         </nav>
+        </div>
       </div>
     </nav>
 

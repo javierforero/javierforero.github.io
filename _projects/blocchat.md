@@ -1,6 +1,6 @@
 ---
 layout: projects
-title: BlocChat
+title: ChatMe
 src-code: https://github.com/javierforero/bloc-chat
 image-url: /images/blocchat.png
 heroku-url: https://blocchat-javi.herokuapp.com/
@@ -10,7 +10,7 @@ short-description: "A chatroom web app that uses AngularJS and firebase."
 Snapshot
 ========
 
-BlocChat is chatroom web app built with AngularJS and Firebase.
+ChatMe is chatroom web app built with AngularJS and Firebase.
 
 The idea here was to allow users to join multiple chatrooms and have topic based conversations. Perhaps users can make new friends or expand their professional network.
 
