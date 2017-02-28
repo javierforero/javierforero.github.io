@@ -121,6 +121,10 @@ section.intro {
         display: none;
     }
 
+    #close-icon {
+      margin-top: 9px;
+    }
+
     .page-link {
         color: $text-color;
         line-height: $base-line-height;
@@ -158,10 +162,7 @@ section.intro {
             color: black;
             display: block;
             float: right;
-            // width: 36px;
-            // height: 26px;
             line-height: 0;
-            padding-top: 10px;
             text-align: center;
             min-height: 35px;
             > svg {
@@ -171,6 +172,9 @@ section.intro {
                 path {
                     fill: $grey-color-dark;
                 }
+            }
+            img {
+              width: 35px;
             }
         }
         .menu-icon:hover {
@@ -188,8 +192,9 @@ section.intro {
             // padding-bottom: 5px;
         }
 
-
-
+        #close-icon {
+          display: none;
+        }
         .page-link {
             display: block;
             padding: 5px 10px;
@@ -202,7 +207,17 @@ section.intro {
     }
 }
 
-
+.overlay {
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  z-index: 35px;
+}
 
 /**
  * Site footer
