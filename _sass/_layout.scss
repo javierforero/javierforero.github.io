@@ -431,10 +431,39 @@ ul.post-ul {
   list-style: none;
   font-size: .8em;
   letter-spacing: 1.2px;
+  li {
+    width: 810px;
+    height: 398px;
+    margin: 0 auto;
+    padding: 30px;
+    margin-bottom: 30px;
+    border: 1.5px solid black;
+  }
 }
 
-ul.post-ul a:last-child {
-  margin-right: 0;
+li#post-1 {
+  background-image: url(../images/melted_landing.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+// ul.post-ul a:last-child {
+//   margin-right: 0;
+// }
+
+li.image-project:after {
+  color:#fff;
+  position:absolute;
+  width:100%; height:100%;
+  top:0; left:0;
+  background:rgba(0,0,0,0.6);
+  opacity:0;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s
+}
+
+li.image-project:hover:after {
+    opacity:1;
 }
 
 ul.post-ul a:hover {
