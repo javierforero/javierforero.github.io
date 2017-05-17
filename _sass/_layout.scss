@@ -432,6 +432,7 @@ ul.post-ul {
   font-size: .8em;
   letter-spacing: 1.2px;
   li {
+    position: relative;
     width: 810px;
     height: 398px;
     margin: 0 auto;
@@ -440,16 +441,6 @@ ul.post-ul {
     border: 1.5px solid black;
   }
 }
-
-li#post-1 {
-  background-image: url(../images/melted_landing.png);
-  background-repeat: no-repeat;
-  background-size: 100% auto;
-}
-
-// ul.post-ul a:last-child {
-//   margin-right: 0;
-// }
 
 li.image-project:after {
   color:#fff;
