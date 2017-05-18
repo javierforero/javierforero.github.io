@@ -433,16 +433,20 @@ ul.post-ul {
   letter-spacing: 1.2px;
   li {
     position: relative;
-    width: 810px;
-    height: 398px;
     margin: 0 auto;
-    padding: 30px;
+    padding: 0px;
     margin-bottom: 30px;
-    border: 1.5px solid black;
+
+    a {
+      position: relative;
+      margin: 0 auto;
+      display: block;
+    }
+
   }
 }
 
-li.image-project:after {
+li.image-project a:after {
   color:#fff;
   position:absolute;
   width:100%; height:100%;
@@ -453,7 +457,7 @@ li.image-project:after {
   -webkit-transition: all 0.5s
 }
 
-li.image-project:hover:after {
+li.image-project a:hover:after {
     opacity:1;
 }
 

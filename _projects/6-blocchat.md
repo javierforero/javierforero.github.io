@@ -4,6 +4,7 @@ title: ChatMe
 src-code: https://github.com/javierforero/bloc-chat
 image-url: /images/blocchat.png
 heroku-url: https://blocchat-javi.herokuapp.com/
+background-image-url: /images/blocchat.png
 short-description: "A chatroom web app that uses AngularJS and firebase."
 ---
 
