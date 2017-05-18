@@ -1,9 +1,9 @@
 ---
 layout: projects
 title: NEMO
-src-code:
-image-url:
-heroku-url:
+src-code: http://www.nemotile.com/
+image-url: /images/nemo.png
+heroku-url: http://www.nemotile.com/
 background-image-url: /images/nemo.png
 short-description: NEMO
 ---
@@ -11,3 +11,7 @@ short-description: NEMO
 
 Snapshot
 ============
+
+Nemo Tile is a provider of top-performing surface materials including porcelain, ceramic, metal, glass, stone and mosaics.
+
+This website was a custom Wordpress build.
