@@ -12,7 +12,6 @@ permalink: /projects.html
   {% for project in site.projects %}
   <li id="post-{{forloop.index}}" class="clearfix">
     <a href="{{ project.url }}" data-content="{{ project.short-description }}" class="image-project">
-      <!-- <h2>{{ project.title }}</h2><br> -->
       <img src="{{project.background-image-url}}" />
     </a>
   </li>
