@@ -8,10 +8,10 @@ permalink: /projects.html
   <header class="post-header">
     <h1 class="post-title">{{ page.title }}</h1>
   </header>
-  <ul class="post-ul clear-fix">
+  <ul class="post-ul">
   {% for project in site.projects %}
-  <li id="post-{{forloop.index}}" class="image-project clearfix">
-    <a href="{{ project.url }}" data-content="{{ project.short-description }}">
+  <li id="post-{{forloop.index}}" class="clearfix">
+    <a href="{{ project.url }}" data-content="{{ project.short-description }}" class="image-project">
       <!-- <h2>{{ project.title }}</h2><br> -->
       <img src="{{project.background-image-url}}" />
     </a>
