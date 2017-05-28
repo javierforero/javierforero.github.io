@@ -13,6 +13,10 @@ permalink: /projects.html
   <li id="post-{{forloop.index}}" class="clearfix">
     <a href="{{ project.url }}" data-content="{{ project.short-description }}" class="image-project">
       <img src="{{project.background-image-url}}" />
+      <div class="project-text">
+        <h2>{{project.title}}</h2>
+        <p>{{ project.short-description }}</p>
+      </div>
     </a>
   </li>
   {% endfor %}

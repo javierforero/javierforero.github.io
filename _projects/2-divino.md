@@ -1,11 +1,11 @@
 ---
 layout: projects
-title: Divino Nino
+title: Divino &Ntildeino
 src-code: https://github.com/javierforero/divinonino_site
 image-url: /images/divino_site.png
 heroku-url: http://www.divinoninoband.com/
 background-image-url: /images/divino_site.png
-short-description: Divino Nino Band's website
+short-description: Divino &Ntildeino Band's website
 ---
 
 

@@ -5,7 +5,7 @@ src-code: http://www.nemotile.com/
 image-url: /images/nemo.png
 heroku-url: http://www.nemotile.com/
 background-image-url: /images/nemo.png
-short-description: NEMO
+short-description: Website for Nemo Tile, a provider of top-performing surface materials
 ---
 
 
