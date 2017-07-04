@@ -15,9 +15,10 @@ Snapshot
 Meltedradio is a web app that uses the Youtube API to allow users to browse and create
 video playlist. The site is being built on AngularJS for the front-end and Rails API for the back-end.
 
-The app is still in development, but it will be deployed in early June 2017.
-In the meantime please see the source code and the screenshots from its development
-stages.
+Check out a deployed version [here](https://meltedradio.herokuapp.com/#/){:target="_blank"}
+
+Feel free to checkout the source code and the screenshots from its development
+stages below.
 
 ![Alt text](/images/melted_landing.png)
 ![Alt text](/images/sign_up.png)
