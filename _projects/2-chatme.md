@@ -18,3 +18,5 @@ The idea here was to allow users to join multiple chatrooms and have topic based
 I had fun working on this one because I had always wondered how gchat worked and this gave me insight into how a regular chat app would work.
 
 Some of the features I plan to add in the future are a user profile, private chatrooms, email notifications, and hashtags.
+
+Check it out [here](https://blocchat-javi.herokuapp.com/){:target="_blank"}
