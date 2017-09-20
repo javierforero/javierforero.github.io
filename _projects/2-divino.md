@@ -12,5 +12,5 @@ short-description: Divino &Ntildeino Band's website
 Snapshot
 ============
 
-This is Divino Nino band's web site! It was a custom built on Wordpress.<br>
-Design by [Camilo Medina](http://camilom.com/).
+Built on Squarespace dev mode<br> check it [here](http://www.divinoninoband.com/){:target="_blank"}
+Design by [Camilo Medina](http://camilom.com/){:target="_blank"}.
