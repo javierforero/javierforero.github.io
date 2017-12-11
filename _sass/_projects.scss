@@ -1,7 +1,19 @@
 #projects {
   display: flex;
   flex-flow: row wrap;
-  & > div {
-    flex: 1 1 50%;
+  .project-container {
+    flex: 1 1 100%;
+    display: flex;
+    flex-flow: row wrap;
+    min-height: 500px;
+      & > div {
+        flex: 1 1 50%;
+      }
+    .project__description {
+      padding: 40px;
+      h1 {
+        text-align: left;
+      }
+    }
   }
 }
