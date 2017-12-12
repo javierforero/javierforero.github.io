@@ -2,18 +2,18 @@
   display: flex;
   flex-flow: row wrap;
   .project-container {
-    flex: 1 1 100%;
+    flex: 1 1 50%;
+    min-height: 500px;
     display: flex;
     flex-flow: row wrap;
-    min-height: 500px;
-      & > div {
-        flex: 1 1 50%;
-      }
-    .project__description {
-      padding: 40px;
-      h1 {
-        text-align: left;
-      }
-    }
-  }
+    align-items: center;
+    justify-content: center;
+   }
+}
+
+.intro {
+  background-image: url(../images/javi_portrait.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }

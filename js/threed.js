@@ -5,7 +5,7 @@ var renderer = new THREE.WebGLRenderer({
   canvas: document.getElementById('canvas'),
   antialias: true
 });
-renderer.setClearColor('rgb(248,149,147)');
+renderer.setClearColor('rgb(0,0,0)');
 renderer.setSize(ww, wh);
 
 var scene = new THREE.Scene();
