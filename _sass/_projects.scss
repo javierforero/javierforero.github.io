@@ -12,8 +12,11 @@
 }
 
 .intro {
-  background-image: url(../images/javi_portrait.jpg);
+  background-image: url(../images/javi_portrait_2.jpg);
   background-size: cover;
-  background-position: center;
+  // background-position: center;
   background-repeat: no-repeat;
+  &-image {
+    background-color: black;
+  }
 }
