@@ -8,6 +8,12 @@
     flex-flow: row wrap;
     align-items: center;
     justify-content: center;
+    &__melted {
+      background-image: url(../images/melted_project_cover.png);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
    }
 }
 
