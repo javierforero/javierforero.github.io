@@ -1,6 +1,12 @@
+.site-header {
+  display: none;
+}
 #projects {
   display: flex;
   flex-flow: row wrap;
+  .project__description {
+    z-index: 3;
+  }
   .project-container {
     flex: 1 1 50%;
     min-height: 500px;
@@ -8,8 +14,46 @@
     flex-flow: row wrap;
     align-items: center;
     justify-content: center;
+    font-family: 'share-techmono';
+    font-weight: 400;
+    font-size: 4rem;
+    text-align: left;
+    line-height: 1.1;
+    padding: 20px;
+    &__whirlpool {
+      background-color: #DAD89C;
+    }
+    &__kenmore {
+      background-color: #E69F94;
+    }
     &__melted {
       background-image: url(../images/melted_project_cover.png);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    &__anderson-gardens {
+      color: white;
+      background-image: url(../images/koi_cover.png);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    &__divino {
+      position: relative;
+      background-image: url(../images/background_tile.png);
+      img {
+        position: absolute;
+        display: block;
+        width: 30%;
+        top: 30%;
+        left: 10px;
+        height: auto;
+        z-index: 1;
+      }
+    }
+    &__experiments {
+      background-image: url(../images/code_pen.png);
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;

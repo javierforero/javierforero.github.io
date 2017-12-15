@@ -1,3 +1,11 @@
+@font-face {
+
+  font-family: 'plexi-font';
+  src: url('../webfonts/plexifont.ttf'); /* IE9 Compat Modes */
+  src: url('../webfonts/plexifont.ttf') format('truetype');
+
+}
+
 *, *::before, *::after {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
