@@ -45,14 +45,28 @@ html, body {
 }
 
 div.home-page {
-  height: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  height: 100vh;
 }
 
-section.intro-image {
-  width: 50%;
-  height: 100%;
-  float: left;
+section.intro-left, section.intro-right {
+  flex: 1 1 50%;
   min-height: 655px;
+}
+
+section.intro-left {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  h1 {
+    color: yellowgreen;
+    margin-top:100px;
+    font-family: 'plexi-font';
+    font-size: 14rem;
+    transform: skewY(20deg);
+    line-height:1;
+  }
 }
 
 div#intro-image-text {
@@ -67,22 +81,7 @@ canvas#canvas {
 }
 
 section.intro {
-  width: 50%;
-  height: 100%;
-  float: right;
-  text-align: center;
-  font-size: 22px;
-  letter-spacing: 1px;
-  padding: 40px 25px;
 
-  h2 {
-    margin: 0;
-  }
-
-  p {
-    text-align: justify;
-    padding: 15px 40px;
-  }
 }
 
 .intro a {
