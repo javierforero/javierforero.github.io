@@ -4,21 +4,6 @@ layout: default
     <div class="home-page">
       <section class="intro-left" id="canvas-section">
         <h1>Javier<br>Forero</h1>
-        <!-- <canvas id="canvas"></canvas>
-        <script type="x-shader/x-vertex" id="wrapVertexShader">
-          attribute vec3 color;
-          varying vec3 vColor;
-        	void main() {
-        		vColor = color;
-            gl_Position = projectionMatrix * modelViewMatrix * vec4(position,1.0);
-          }
-        </script>
-        <script type="x-shader/x-fragment" id="wrapFragmentShader">
-          varying vec3 vColor;
-          void main(){
-            gl_FragColor = vec4(vColor ,1.0);
-          }
-        </script> -->
       </section>
       <section class="intro-right">
       </section>
@@ -50,7 +35,22 @@ layout: default
           <h2>Divino Nino site</h2>
         </div>
       </a>
-      <a href="#" class="project-container project-container__experiments">
+      <a href="#" class="project-container project-container__experiments" id="experiments-section">
+        <canvas id="canvas"></canvas>
+        <script type="x-shader/x-vertex" id="wrapVertexShader">
+          attribute vec3 color;
+          varying vec3 vColor;
+          void main() {
+            vColor = color;
+            gl_Position = projectionMatrix * modelViewMatrix * vec4(position,1.0);
+          }
+        </script>
+        <script type="x-shader/x-fragment" id="wrapFragmentShader">
+          varying vec3 vColor;
+          void main(){
+            gl_FragColor = vec4(vColor ,1.0);
+          }
+        </script>
         <div class="project__description">
           <h2>Code pen Experiments</h2>
         </div>

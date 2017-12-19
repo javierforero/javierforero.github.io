@@ -1,5 +1,5 @@
-var ww = document.getElementById('canvas-section').clientWidth,
-    wh = document.getElementById('canvas-section').clientHeight;
+var ww = document.getElementById('experiments-section').clientWidth,
+    wh = document.getElementById('experiments-section').clientHeight;
 
 var renderer = new THREE.WebGLRenderer({
   canvas: document.getElementById('canvas'),
@@ -39,8 +39,8 @@ scene.add(mesh);
 
 window.addEventListener("resize", function() {
 
-  ww = document.getElementById('canvas-section').clientWidth;
-  wh = document.getElementById('canvas-section').clientHeight;
+  ww = document.getElementById('experiments-section').clientWidth;
+  wh = document.getElementById('experiments-section').clientHeight;
   camera.aspect = ww / wh;
   camera.updateProjectionMatrix();
   renderer.setSize(ww, wh);
