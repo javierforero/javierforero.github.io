@@ -6,6 +6,7 @@ image-url: /images/chatme.png
 heroku-url: https://blocchat-javi.herokuapp.com/
 background-image-url: /images/chatme.png
 short-description: "A chatroom web app that uses AngularJS and firebase."
+namespace: chatme
 ---
 
 Snapshot

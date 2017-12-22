@@ -6,6 +6,7 @@ image-url: /images/japanese_gardens.png
 heroku-url: https://anderson-gardens.herokuapp.com/
 background-image-url: /images/japanese_gardens.png
 short-description: Anderson Japanese Gardens Pitch website
+namespace: japanese-gardens
 ---
 
 

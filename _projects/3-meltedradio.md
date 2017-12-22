@@ -6,6 +6,7 @@ image-url: /images/melted_dash.png
 heroku-url: https://github.com/javierforero/meltedradio
 background-image-url: /images/melted_landing.png
 short-description: An app that lets you search and create playlists from youtube
+namespace: meltedradio
 ---
 
 

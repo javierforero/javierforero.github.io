@@ -6,6 +6,8 @@ image-url: /images/whiteops.png
 heroku-url:
 background-image-url: /images/whiteops.png
 short-description: "WhiteOps 2016-2017 Report"
+namespace: whiteops
+
 ---
 
 Snapshot

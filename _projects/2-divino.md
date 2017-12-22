@@ -6,6 +6,7 @@ image-url: /images/divino_site.png
 heroku-url: http://www.divinoninoband.com/
 background-image-url: /images/divino_site.png
 short-description: Divino &Ntildeino Band's website
+namespace: divinonino
 ---
 
 

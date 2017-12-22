@@ -1,5 +1,23 @@
 document.addEventListener("DOMContentLoaded", function() {
-  console.log("started");
+
+  var Homepage = Barba.BaseView.extend({
+    namespace: 'homepage',
+    onEnter: function() {
+        // The new Container is ready and attached to the DOM.
+        threeJs();
+    },
+    onEnterCompleted: function() {
+        // The Transition has just finished.
+    },
+    onLeave: function() {
+      // A new Transition toward a new page has just started.
+    },
+    onLeaveCompleted: function() {
+      // The Container has just been removed from the DOM.
+    }
+  });
+  // Don't forget to init the view!
+  Homepage.init();
   Barba.Pjax.init();
   Barba.Prefetch.init();
 
@@ -34,7 +52,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
     var _this = this;
     var $el = $(this.newContainer);
-
     $(this.oldContainer).hide();
 
     $el.css({

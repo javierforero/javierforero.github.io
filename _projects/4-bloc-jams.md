@@ -6,6 +6,7 @@ image-url: /images/blocjams.png
 heroku-url: https://blocjams-javi.herokuapp.com/
 background-image-url: /images/blocjams.png
 short-description: "A music streaming service"
+namespace: blocjams
 ---
 
 Snapshot

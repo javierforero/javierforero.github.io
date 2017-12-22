@@ -10,7 +10,8 @@
   .project-container {
     position: relative;
     flex: 1 1 50%;
-    min-height: 500px;
+    min-height: 400px;
+    min-width:350px;
     display: flex;
     flex-flow: row wrap;
     align-items: center;
@@ -21,6 +22,7 @@
     text-align: left;
     line-height: 1.1;
     padding: 20px;
+    color: white;
     &:before {
       content: '';
       display: block;
@@ -37,15 +39,27 @@
     }
     &__whirlpool {
       background-color: #DAD89C;
+      &:hover {
+        transition: color .4s ease-in-out;
+        color: black;
+      }
     }
-    &__kenmore {
+    &__chatme {
       background-color: #E69F94;
+      &:hover {
+        transition: color .4s ease-in-out;
+        color: black;
+      }
     }
     &__melted {
       background-image: url(../images/melted_project_cover.png);
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
+      &:hover {
+        transition: color .4s ease-in-out;
+        color: black;
+      }
     }
     &__anderson-gardens {
       color: white;
@@ -53,6 +67,10 @@
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
+      &:hover {
+        transition: color .4s ease-in-out;
+        color: yellowgreen;
+      }
     }
     &__divino {
       position: relative;
@@ -65,12 +83,20 @@
         left: 10px;
         height: auto;
       }
+      &:hover {
+        transition: color .4s ease-in-out;
+        color: black;
+      }
     }
     &__experiments {
       canvas {
         position: absolute;
         width: 100%;
         height: 100%;
+      }
+      &:hover {
+        transition: color .4s ease-in-out;
+        color: yellowgreen;
       }
     }
    }

@@ -1,3 +1,5 @@
+
+var threeJs = function() {
 var ww = document.getElementById('experiments-section').clientWidth,
     wh = document.getElementById('experiments-section').clientHeight;
 
@@ -61,3 +63,4 @@ function render(a) {
 }
 
 requestAnimationFrame(render);
+}

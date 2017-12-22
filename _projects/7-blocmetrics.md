@@ -6,6 +6,7 @@ image-url: /images/blocmetrics.png
 heroku-url: https://blocmetrics-javi.herokuapp.com/
 background-image-url: /images/blocmetrics.png
 short-description: An analytics site that allows you to track events on your web apps
+namespace: blocmetrics
 ---
 
 
