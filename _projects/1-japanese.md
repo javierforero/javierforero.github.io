@@ -8,9 +8,13 @@ background-image-url: /images/japanese_gardens.png
 short-description: Anderson Japanese Gardens Pitch website
 namespace: japanese-gardens
 ---
-
-
-Snapshot
-============
-
-Landing page concept for botanic gardens. Created in Collaboration with [Grace Hamann](http://gracemichiko.com/){:target="_blank"}. Deployed version [here](https://anderson-gardens.herokuapp.com/){:target="_blank"}!
+<div class="project__left">
+  <div class="project__left__text">
+    <h2>Snapshot</h2>
+    <p>Landing page concept for botanic gardens. Created in Collaboration with <a href="http://gracemichiko.com/" target="_blank">Grace Hamann</a>.</p>
+    <p>Deployed version <a href="https://anderson-gardens.herokuapp.com/">here</a></p>
+  </div>  
+</div>
+<div class="project__right">
+  <img src="/images/japanese_gardens.jpg" />
+</div>

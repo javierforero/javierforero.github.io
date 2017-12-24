@@ -8,10 +8,13 @@ background-image-url: /images/divino_site.png
 short-description: Divino &Ntildeino Band's website
 namespace: divinonino
 ---
-
-
-Snapshot
-============
-
-Built on Squarespace dev mode<br> check it [here](http://www.divinoninoband.com/){:target="_blank"}
-Design by [Camilo Medina](http://camilom.com/){:target="_blank"}.
+<div class="project__left">
+  <div class="project__left__text">
+    <h2>Snapshot</h2>
+    <p>Built on Squarespace dev mode<br> check it <a href="http://www.divinoninoband.com/" target="_blank">here</a></p>
+    <p>Design by <a href="http://camilom.com/" target="_blank">Camilo Medina</a>.</p>
+  </div>  
+</div>
+<div class="project__right">
+  <img src="/images/divino_site.jpg" />
+</div>
