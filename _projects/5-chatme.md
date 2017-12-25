@@ -9,15 +9,16 @@ short-description: "A chatroom web app that uses AngularJS and firebase."
 namespace: chatme
 ---
 
-Snapshot
-========
-
-ChatMe is chatroom web app built with AngularJS and Firebase.
-
-The idea here was to allow users to join multiple chatrooms and have topic based conversations. Perhaps users can make new friends or expand their professional network.
-
-I had fun working on this one because I had always wondered how gchat worked and this gave me insight into how a regular chat app would work.
-
-Some of the features I plan to add in the future are a user profile, private chatrooms, email notifications, and hashtags.
-
-Check it out [here](https://blocchat-javi.herokuapp.com/){:target="_blank"}
+<div class="project__left">
+  <div class="project__left__text">
+    <h2>Snapshot</h2>
+    <p>ChatMe is chatroom web app built with AngularJS and Firebase.</p>
+    <p>The idea here was to allow users to join multiple chatrooms and have topic based conversations. Perhaps users can make new friends or expand their professional network.</p>
+    <p>Some of the features I plan to add in the future are a user profiles, private chatrooms, email notifications, and hashtags.</p>
+    <p>Check it out <a href="https://blocchat-javi.herokuapp.com/" target="_blank">here</a></p>
+  </div>  
+</div>
+<div class="project__right">
+  <img src="/images/chatme.jpg" />
+  <img src="/images/chatme_2.jpg" />
+</div>
