@@ -19,6 +19,5 @@ namespace: stylehub
   </div>  
 </div>
 <div class="project__right">
-  <img src="/images/chatme.jpg" />
-  <img src="/images/chatme_2.jpg" />
+  <iframe allowFullScreen frameborder="0" height="564" mozallowfullscreen src="https://player.vimeo.com/video/248783742" webkitAllowFullScreen width="640"></iframe>
 </div>
