@@ -1,0 +1,33 @@
+@keyframes g {
+    0% {
+        -webkit-transform: translateY(0) scaleY(1);
+        transform: translateY(0) scaleY(1)
+    }
+
+    40% {
+        -webkit-transform: translateY(10px) scaleY(0);
+        transform: translateY(10px) scaleY(0)
+    }
+
+    to {
+        -webkit-transform: translateY(10px) scaleY(0);
+        transform: translateY(10px) scaleY(0)
+    }
+}
+
+@keyframes h {
+    0% {
+        -webkit-transform: translateY(-15px) scaleY(0);
+        transform: translateY(-15px) scaleY(0)
+    }
+
+    60% {
+        -webkit-transform: translateY(-15px) scaleY(0);
+        transform: translateY(-15px) scaleY(0)
+    }
+
+    to {
+        -webkit-transform: translateY(0) scaleY(1);
+        transform: translateY(0) scaleY(1)
+    }
+}

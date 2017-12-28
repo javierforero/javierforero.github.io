@@ -4,6 +4,68 @@
 .barba-container {
   height: 100%;
 }
+.scroll-down {
+    position: absolute;
+    left: 50%;
+    bottom: 50px;
+    width: 10px;
+    height: 50px;
+    cursor: pointer;
+    background-color: transparent;
+    pointer-events: visiblePainted;
+    transform-origin: 0 0;
+    transform: translate3d(-50%,0,0) scaleY(1);
+    transition: transform 1s;
+    &__lines {
+      position: absolute;
+      left: 50%;
+      top: 0;
+      width: 1px;
+      height: 100%;
+      -webkit-transform: translateX(-50%);
+      transform: translateX(-50%);
+      &_animated:before {
+        -webkit-transform-origin: 0 100%;
+        transform-origin: 0 100%;
+        -webkit-animation-name: g;
+        animation-name: g;
+        -webkit-animation-duration: 3.5s;
+        animation-duration: 3.5s;
+        -webkit-animation-iteration-count: infinite;
+        animation-iteration-count: infinite;
+        -webkit-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
+        -webkit-animation-timing-function: cubic-bezier(.25,0,.25,1);
+        animation-timing-function: cubic-bezier(.25,0,.25,1);
+      }
+
+      &_animated:after {
+        -webkit-transform-origin: 0 0;
+        transform-origin: 0 0;
+        -webkit-animation-name: h;
+        animation-name: h;
+        -webkit-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
+        -webkit-animation-duration: 3.5s;
+        animation-duration: 3.5s;
+        -webkit-animation-iteration-count: infinite;
+        animation-iteration-count: infinite;
+        -webkit-animation-timing-function: cubic-bezier(.25,0,.25,1);
+        animation-timing-function: cubic-bezier(.25,0,.25,1);
+      }
+
+      &:before, &:after {
+        content: "";
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: yellowgreen;
+      }
+    }
+}
 #projects {
   display: flex;
   flex-flow: row wrap;
@@ -115,27 +177,54 @@
 }
 
 .project {
+  &__title {
+    font-size: 60px;
+    text-align: center;
+  }
   &__wrapper {
     display: flex;
     flex-flow: row wrap;
     height: inherit;
+    max-width: 900px;
+    padding: 0 20px;
+    margin: 50px auto 50px auto;
   }
-  &__left, &__right {
-    flex: 1 1 50%;
+  &__left {
+    flex: 1;
     font-size: 1.3rem;
     display: flex;
+    flex-flow: row wrap;
     align-items: center;
     justify-content: center;
   }
   &__left {
     &__text {
-      padding: 10%;
       min-width: 355px;
     }
   }
-  &__right {
-    flex-flow: column nowrap;
+  &__imgs {
+    padding-bottom: 40px;
+    img {
+      margin: 0px auto 30px auto;
+      display: block;
+      border: 0;
+    }
   }
+}
+
+.video-responsive{
+    padding-bottom:56.25%;
+    position:relative;
+    width: 100%;
+    min-width: 430px;
+    iframe {
+      left:0;
+      top:0;
+      height:100%;
+      width:100%;
+      position:absolute;
+      padding-bottom: 30px;
+    }
 }
 
 @media only screen and (max-width: 1038px) {
@@ -162,6 +251,9 @@
     h1 {
       font-size: 7rem;
     }
+  }
+  .video-responsive{
+      min-width: 289px;
   }
 }
 

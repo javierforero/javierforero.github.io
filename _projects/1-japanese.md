@@ -10,11 +10,13 @@ namespace: japanese-gardens
 ---
 <div class="project__left">
   <div class="project__left__text">
-    <h2>Snapshot</h2>
+    <h2 class="project__title">{{page.title}}</h2>
+    <br>
+    <br>
     <p>Landing page concept for botanic gardens. Created in Collaboration with <a href="http://gracemichiko.com/" target="_blank">Grace Hamann</a>.</p>
-    <p>Deployed version <a href="https://anderson-gardens.herokuapp.com/">here</a></p>
+    <p>Deployed version <a href="https://anderson-gardens.herokuapp.com/" target="_blank">here</a></p>
+    <br>
+    <br>
   </div>  
-</div>
-<div class="project__right">
-  <img src="/images/japanese_gardens.jpg" />
+  <img src="/images/anderson_japanesa_web.jpg" />
 </div>
