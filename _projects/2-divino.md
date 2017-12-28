@@ -18,6 +18,6 @@ namespace: divinonino
     <br>
   </div>
   <div class="project__imgs">
-    <img src="/images/divinonino_site.png" />
+    <img src="/images/divinonino_site.jpg" />
   </div>
 </div>

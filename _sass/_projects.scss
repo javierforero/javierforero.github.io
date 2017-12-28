@@ -180,6 +180,7 @@
   &__title {
     font-size: 60px;
     text-align: center;
+    line-height: 1;
   }
   &__wrapper {
     display: flex;
@@ -196,11 +197,6 @@
     flex-flow: row wrap;
     align-items: center;
     justify-content: center;
-  }
-  &__left {
-    &__text {
-      min-width: 355px;
-    }
   }
   &__imgs {
     padding-bottom: 40px;

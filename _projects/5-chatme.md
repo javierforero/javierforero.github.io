@@ -21,9 +21,6 @@ namespace: chatme
     <br>
   </div>
   <div class="project__imgs">
-    <img src="/images/chat_1.png" />
-    <br>
-    <br>
-    <img src="/images/chat_2.png" />
+    <img src="/images/chat_app.gif" />
   </div>
 </div>

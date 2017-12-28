@@ -17,6 +17,8 @@ namespace: japanese-gardens
     <p>Deployed version <a href="https://anderson-gardens.herokuapp.com/" target="_blank">here</a></p>
     <br>
     <br>
+  </div>
+  <div class="project__imgs">
+    <img src="/images/anderson_japanesa_web.jpg" />
   </div>  
-  <img src="/images/anderson_japanesa_web.jpg" />
 </div>
