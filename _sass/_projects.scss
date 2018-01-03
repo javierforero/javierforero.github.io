@@ -66,6 +66,23 @@
       }
     }
 }
+#about-me {
+  margin: 0 auto;
+  min-height: 400px;
+  max-width: 960px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'share-techmono';
+  font-size: 4rem;
+  padding: 0 30px;
+  h2 {
+    font-weight: 400;
+    line-height: 80px;
+    text-align: center;
+  }
+}
 #projects {
   display: flex;
   flex-flow: row wrap;
@@ -223,13 +240,15 @@
     }
 }
 
-@media only screen and (max-width: 1038px) {
+
+@media only screen and (max-width: 1049px) {
   section.intro-left {
     h1 {
       font-size: 8rem;
     }
   }
 }
+
 
 @media only screen and (max-width: 763px) {
   section.intro-left {
@@ -239,6 +258,9 @@
   }
   section.intro-right {
     display: none;
+  }
+  #about-me {
+    font-size: 3rem;
   }
 }
 
@@ -251,6 +273,9 @@
   .video-responsive{
       min-width: 289px;
   }
+  #about-me {
+    font-size: 2.5rem;
+  }
 }
 
 @media only screen and (max-width: 363px) {
@@ -258,5 +283,8 @@
     h1 {
       font-size: 6rem;
     }
+  }
+  #about-me {
+    font-size: 2rem;
   }
 }

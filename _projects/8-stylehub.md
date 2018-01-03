@@ -10,6 +10,7 @@ namespace: stylehub
 ---
 
 <div class="project__left">
+  <a href="/" data-link="style-hub">Back</a>
   <div class="project__left__text">
     <h2 class="project__title">{{page.title}}</h2>
     <br>

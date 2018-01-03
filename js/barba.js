@@ -16,10 +16,12 @@ document.addEventListener("DOMContentLoaded", function() {
       // The Container has just been removed from the DOM.
     }
   });
+  
   // Don't forget to init the view!
   Homepage.init();
   Barba.Pjax.init();
   Barba.Prefetch.init();
+
 
   var FadeTransition = Barba.BaseTransition.extend({
   start: function() {
@@ -49,11 +51,14 @@ document.addEventListener("DOMContentLoaded", function() {
      * At this stage newContainer is on the DOM (inside our #barba-container and with visibility: hidden)
      * Please note, newContainer is available just after newContainerLoading is resolved!
      */
-
+    // $(window).scrollTop(0);
+    let oldNamespace = this.oldContainer.attributes['1'].value;
+    // console.log(oldNamespace);
+    $(window).scrollTop(0);
     var _this = this;
     var $el = $(this.newContainer);
     $(this.oldContainer).hide();
-
+    console.log();
     $el.css({
       visibility : 'visible',
       opacity : 0
