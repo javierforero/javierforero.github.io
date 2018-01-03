@@ -8,7 +8,11 @@ background-image-url: /images/chatme.png
 short-description: "A chatroom web app that uses AngularJS and firebase."
 namespace: chatme
 ---
-
+<div class="project__nav">
+  <a href="/projects/1-japanese.html" class="prev">&#x21E0;</a>
+  <a href="/" class="home">&#10086;</a>
+  <a href="/projects/2-divino.html" class="next">&#x21E2;</a>
+</div>
 <div class="project__left">
   <div class="project__left__text">
     <h2 class="project__title">{{page.title}}</h2>

@@ -1,10 +1,11 @@
 document.addEventListener("DOMContentLoaded", function() {
-
-  var Homepage = Barba.BaseView.extend({
+  let lastElementClicked;
+  let Homepage = Barba.BaseView.extend({
     namespace: 'homepage',
     onEnter: function() {
         // The new Container is ready and attached to the DOM.
-        threeJs();
+        threeJs('experiments-section-home', 'canvas-home');
+
     },
     onEnterCompleted: function() {
         // The Transition has just finished.
@@ -16,14 +17,18 @@ document.addEventListener("DOMContentLoaded", function() {
       // The Container has just been removed from the DOM.
     }
   });
-  
+    
   // Don't forget to init the view!
   Homepage.init();
   Barba.Pjax.init();
   Barba.Prefetch.init();
 
+  Barba.Dispatcher.on('linkClicked', function(el) {
+    lastElementClicked = el;
+  });
 
-  var FadeTransition = Barba.BaseTransition.extend({
+
+  let FadeTransition = Barba.BaseTransition.extend({
   start: function() {
     /**
      * This function is automatically called as soon the Transition starts
@@ -51,14 +56,12 @@ document.addEventListener("DOMContentLoaded", function() {
      * At this stage newContainer is on the DOM (inside our #barba-container and with visibility: hidden)
      * Please note, newContainer is available just after newContainerLoading is resolved!
      */
-    // $(window).scrollTop(0);
     let oldNamespace = this.oldContainer.attributes['1'].value;
-    // console.log(oldNamespace);
     $(window).scrollTop(0);
-    var _this = this;
-    var $el = $(this.newContainer);
+    let _this = this;
+    let $el = $(this.newContainer);
     $(this.oldContainer).hide();
-    console.log();
+
     $el.css({
       visibility : 'visible',
       opacity : 0

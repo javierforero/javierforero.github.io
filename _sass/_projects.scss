@@ -223,6 +223,12 @@
       border: 0;
     }
   }
+  &__nav {
+    position: fixed;
+    top: 10px;
+    left: 30px;
+    font-size: 1.4rem;
+  }
 }
 
 .video-responsive{

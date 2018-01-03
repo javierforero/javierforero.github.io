@@ -8,7 +8,11 @@ background-image-url: /images/melted_landing.png
 short-description: An app that lets you search and create playlists from youtube
 namespace: meltedradio
 ---
-
+<div class="project__nav">
+  <a href="/projects/8-stylehub.html" class="prev">&#x21E0;</a>
+  <a href="/" class="home">&#10086;</a>
+  <a href="/projects/1-japanese.html" class="next">&#x21E2;</a>
+</div>
 <div class="project__left">
   <div class="project__left__text">
     <h2 class="project__title">{{page.title}}</h2>
