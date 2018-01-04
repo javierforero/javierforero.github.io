@@ -5,6 +5,7 @@ document.addEventListener("DOMContentLoaded", function() {
     onEnter: function() {
         // The new Container is ready and attached to the DOM.
         threeJs('experiments-section-home', 'canvas-home');
+        scrollFunc();
 
     },
     onEnterCompleted: function() {

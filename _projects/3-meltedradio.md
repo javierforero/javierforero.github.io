@@ -10,7 +10,7 @@ namespace: meltedradio
 ---
 <div class="project__nav">
   <a href="/projects/8-stylehub.html" class="prev">&#x21E0;</a>
-  <a href="/" class="home">&#10086;</a>
+  <a href="/" class="project__nav__home">home</a>
   <a href="/projects/1-japanese.html" class="next">&#x21E2;</a>
 </div>
 <div class="project__left">

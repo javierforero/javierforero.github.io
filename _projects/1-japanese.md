@@ -10,7 +10,7 @@ namespace: japanese-gardens
 ---
 <div class="project__nav">
   <a href="/projects/3-meltedradio.html" class="prev">&#x21E0;</a>
-  <a href="/" class="home">&#10086;</a>
+  <a href="/" class="project__nav__home">home</a>
   <a href="/projects/5-chatme.html" class="next">&#x21E2;</a>  
 </div>
 <div class="project__left">

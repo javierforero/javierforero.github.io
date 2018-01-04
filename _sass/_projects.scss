@@ -3,6 +3,7 @@
 }
 .barba-container {
   height: 100%;
+  position: relative;
 }
 .scroll-down {
     position: absolute;
@@ -70,7 +71,7 @@
   margin: 0 auto;
   min-height: 400px;
   max-width: 960px;
-  height: 100vh;
+  height: 600px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -83,7 +84,8 @@
     text-align: center;
   }
 }
-#projects {
+
+.projects {
   display: flex;
   flex-flow: row wrap;
   .project__description {
@@ -101,7 +103,7 @@
     font-family: 'share-techmono';
     font-weight: 400;
     font-size: 4rem;
-    text-align: left;
+    text-align: center;
     line-height: 1.1;
     padding: 20px;
     color: white;
@@ -171,10 +173,20 @@
       }
     }
     &__experiments {
+      background-image: url(/images/experiments_backup.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-color: black;
       canvas {
         position: absolute;
         width: 100%;
         height: 100%;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+
       }
       &:hover {
         transition: color .4s ease-in-out;
@@ -225,9 +237,23 @@
   }
   &__nav {
     position: fixed;
-    top: 10px;
+    top: 20px;
     left: 30px;
-    font-size: 1.4rem;
+    font-size: 1rem;
+    &__home {
+      font-style: italic;
+      text-decoration: line-through;
+    }
+    .prev, .next {
+      border: 1px solid blue;
+      padding: 5px;
+    }
+    .prev {
+      margin-right: 5px;
+    }
+    .next {
+      margin-left: 5px;
+    }
   }
 }
 
@@ -244,6 +270,26 @@
       position:absolute;
       padding-bottom: 30px;
     }
+}
+
+@media only screen and (max-width: 1156px) {
+  #projects_nav {
+    display: none;
+  }
+  .project {
+    &__nav {
+      position: absolute;
+      top: initial;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 30px;
+    }
+  }
 }
 
 
@@ -267,6 +313,11 @@
   }
   #about-me {
     font-size: 3rem;
+  }
+  #projects {
+    .project-container {
+      font-size: 3rem;
+    }
   }
 }
 

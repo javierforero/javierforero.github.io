@@ -40,15 +40,42 @@
     background-color: white;
 }
 
-div.home-page {
+.home-page {
   display: flex;
   flex-flow: row wrap;
   height: 100vh;
+  min-height: 550px;
+  &__container {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+    ul {
+      margin: 0;
+      display: flex;
+      flex-flow: row wrap;
+      li {
+        padding: 10px;
+        a {
+          display: block;
+          color: yellowgreen;
+          cursor: pointer;
+          font-family: 'share-techmono';
+          &:hover {
+            color: blue;
+          }
+        }
+      }
+    }
+  }
 }
 
 section.intro-left, section.intro-right {
   flex: 1 1 50%;
-  min-height: 655px;
+  min-height: 500px;
 }
 
 section.intro-left {
