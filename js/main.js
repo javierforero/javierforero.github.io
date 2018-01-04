@@ -15,5 +15,7 @@ let scrollFunc = ()=> {
 };
 
 $(document).ready(function() {
-    $('#main-content').fadeIn(800);
+    $(window).on("load", function(){
+        $('#main-content').fadeIn(400);
+    });
 });
