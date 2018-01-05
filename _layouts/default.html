@@ -3,7 +3,12 @@
 
   {% include head.html %}
 
-  <body id="main-content">
+  <body>
+    <div id="loader-wrapper">
+      <div id="loader"></div>
+      <div class="loader-section left"></div>
+      <div class="loader-section right"></div>
+    </div>
     <main id="barba-wrapper" class="page-content homepage-overflow" >
         {% include header.html %}
         {{ content }}
