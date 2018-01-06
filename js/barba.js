@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
-  let lastElementClicked;
-  let Homepage = Barba.BaseView.extend({
+  var lastElementClicked;
+  var Homepage = Barba.BaseView.extend({
     namespace: 'homepage',
     onEnter: function() {
         // The new Container is ready and attached to the DOM.
@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 
 
-  let FadeTransition = Barba.BaseTransition.extend({
+  var FadeTransition = Barba.BaseTransition.extend({
   start: function() {
     /**
      * This function is automatically called as soon the Transition starts
@@ -57,10 +57,10 @@ document.addEventListener("DOMContentLoaded", function() {
      * At this stage newContainer is on the DOM (inside our #barba-container and with visibility: hidden)
      * Please note, newContainer is available just after newContainerLoading is resolved!
      */
-    let oldNamespace = this.oldContainer.attributes['1'].value;
+    var oldNamespace = this.oldContainer.attributes['1'].value;
     $(window).scrollTop(0);
-    let _this = this;
-    let $el = $(this.newContainer);
+    var _this = this;
+    var $el = $(this.newContainer);
     $(this.oldContainer).hide();
 
     $el.css({

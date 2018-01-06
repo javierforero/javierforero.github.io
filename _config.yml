@@ -26,3 +26,6 @@ markdown: kramdown
 
 #Scripts
 google_analytics: UA-87739652-1
+
+plugins:
+  - jekyll-babel

@@ -1,7 +1,7 @@
 
-let scrollFunc = ()=> {
-      $('.home-page__nav li a').click((e)=>{
-            let elId = e.target.id;
+var scrollFunc = function() {
+      $('.home-page__nav li a').click(function(e){
+            var elId = e.target.id;
             if(elId == 'hp-nav-about') {
               $('html, body').animate({
                   scrollTop: $('#about-me').offset().top
@@ -14,6 +14,6 @@ let scrollFunc = ()=> {
           });
 };
 
-$(() => {
+$(function(){
   $('body').toggleClass('loaded');
 });
