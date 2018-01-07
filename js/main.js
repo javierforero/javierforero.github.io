@@ -15,7 +15,9 @@ var scrollFunc = function() {
 };
 
 $(function(){
-  setTimeout(function(){
-    $('body').toggleClass('loaded');    
-  }, 700)
+  var img = new Image();
+  img.src = '/images/javi_portrait_2.jpg';
+  img.onload = function() {
+    $('body').toggleClass('loaded');
+  };
 });
