@@ -331,6 +331,12 @@
   }
 }
 
+@media only screen and (max-width: 699px) {
+ .projects {
+  -webkit-flex-flow: column nowrap;
+   flex-flow: column nowrap;
+ }
+}
 
 @media only screen and (max-width: 763px) {
   section.intro-left {
