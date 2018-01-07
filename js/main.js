@@ -1,4 +1,3 @@
-
 var scrollFunc = function() {
       $('.home-page__nav li a').click(function(e){
             var elId = e.target.id;
