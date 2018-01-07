@@ -16,7 +16,7 @@ var scrollFunc = function() {
 
 $(function(){
   var img = new Image();
-  img.src = '/images/javi_portrait_2.jpg';
+  img.src = '/images/javi_portrait_2.png';
   img.onload = function() {
     $('body').toggleClass('loaded');
   };
