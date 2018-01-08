@@ -1063,22 +1063,22 @@ div.form-container {
 @media only screen and (max-width: 1049px) {
   section.intro-left h1 {
     font-size: 8rem; } }
-@media only screen and (max-width: 699px) {
-  .projects {
-    -ms-flex-flow: column nowrap;
-        flex-flow: column nowrap; } }
+@media only screen and (max-width: 907px) {
+  section.intro-right {
+    display: none; } }
 @media only screen and (max-width: 763px) {
   section.intro-left h1 {
     font-size: 10rem; }
-
-  section.intro-right {
-    display: none; }
 
   #about-me {
     font-size: 3rem; }
 
   #projects .project-container {
     font-size: 3rem; } }
+@media only screen and (max-width: 699px) {
+  .projects {
+    -ms-flex-flow: column nowrap;
+        flex-flow: column nowrap; } }
 @media only screen and (max-width: 483px) {
   section.intro-left h1 {
     font-size: 7rem; }
