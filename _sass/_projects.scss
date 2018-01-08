@@ -318,20 +318,16 @@
   }
 }
 
-@media only screen and (max-width: 699px) {
- .projects {
-   flex-flow: column nowrap;
- }
+@media only screen and (max-width: 907px) {
+  section.intro-right {
+    display: none;
+  }
 }
-
 @media only screen and (max-width: 763px) {
   section.intro-left {
     h1 {
       font-size: 10rem;
     }
-  }
-  section.intro-right {
-    display: none;
   }
   #about-me {
     font-size: 3rem;
@@ -342,7 +338,11 @@
     }
   }
 }
-
+@media only screen and (max-width: 699px) {
+  .projects {
+    flex-flow: column nowrap;
+  }
+ }
 @media only screen and (max-width: 483px) {
   section.intro-left {
     h1 {
