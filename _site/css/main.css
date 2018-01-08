@@ -935,6 +935,7 @@ div.form-container {
         width: 30%;
         top: 30%;
         left: 10px;
+        max-width: 250px;
         height: auto; }
       .projects .project-container__divino:hover {
         -webkit-transition: color .4s ease-in-out;
@@ -1035,6 +1036,9 @@ div.form-container {
     position: absolute;
     padding-bottom: 30px; }
 
+@media only screen and (min-width: 1500px) {
+  .projects .project-container {
+    min-height: 500px; } }
 @media only screen and (max-width: 1156px) {
   #projects_nav {
     display: none; }
