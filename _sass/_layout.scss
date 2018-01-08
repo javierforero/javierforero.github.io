@@ -52,11 +52,7 @@
   min-height: 550px;
   &__container {
     position: absolute;
-    width: 100%;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: flex-end;
-    align-items: center;
+    right: 0;
     padding: 10px;
     ul {
       margin: 0;
